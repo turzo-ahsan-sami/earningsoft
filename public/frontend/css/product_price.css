@@ -1,0 +1,98 @@
+.pelling-bolt-main-design.tt-pricing-cards { background-color: #edeef0; padding-top: 80px; padding-bottom: 80px; }
+.pelling-bolt-main-design .container { padding-left: 10px; }
+.pelling-bolt-main-design .cards-tab-menu { margin-top: 40px; position: relative; }
+.pelling-bolt-main-design .cards-tab-menu div { text-align: center; }
+.pelling-bolt-main-design .cards-tab-menu a { display: inline-block; margin: 0 15px; text-transform: uppercase; color: #a5a5a5; }
+.pelling-bolt-main-design .cards-tab-menu a:hover { text-decoration: none; }
+.pelling-bolt-main-design .cards-tab-menu a:focus { text-decoration: none; }
+.pelling-bolt-main-design .cards-tab-menu a.active { border-bottom: 2px solid #2ca10c; color: #393a3d; }
+@media (min-width: 768px) { .pelling-bolt-main-design .cards-tab-menu { display: none; } }
+.pelling-bolt-main-design .cards-tab-menu .xs-tab-menu-bt span { display: inline-block; width: 40px; height: 40px; border-radius: 50%; background-color: rgba(210, 210, 210, 0.75); font-size: 24px; text-align: center; line-height: 40px; color: #808080; position: absolute; bottom: -90px; z-index: 10; }
+.pelling-bolt-main-design .cards-tab-menu .xs-tab-menu-bt span.prev { left: 0; }
+.pelling-bolt-main-design .cards-tab-menu .xs-tab-menu-bt span.next { right: 0; }
+.pelling-bolt-main-design .cards-tab-menu .xs-tab-menu-bt span.hide { display: none; }
+.pelling-bolt-main-design .pricing-card { background-color: #fff; margin: 20px 0; border-top: 8px solid #2ca10c; border-top-right-radius: 6px; border-top-left-radius: 6px; -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); border-radius: 4px; }
+@media (min-width: 768px) { .pelling-bolt-main-design .pricing-card { display: flex; } }
+.pelling-bolt-main-design .pricing-card .col-md-4 { border-left: 1px solid #ccc; }
+.pelling-bolt-main-design .pricing-card .col-md-4:first-child { border-left: 0; }
+.pelling-bolt-main-design .pricing-card .sm-tab-card { display: none; }
+.pelling-bolt-main-design .pricing-card .sm-tab-card.active { display: block; }
+@media (min-width: 768px) { .pelling-bolt-main-design .pricing-card .sm-tab-card { display: block; } }
+.pelling-bolt-main-design .pricing-card .pricing-card-header { background-color: #fff !important; }
+.pelling-bolt-main-design .pricing-card .pricing-card-content ul.pricing-features { margin: 0 15px 40px !important; }
+.pelling-bolt-main-design .pricing-card .pricing-card-content ul.pricing-features li { position: relative; list-style: none; border: 0; color: #393a3d; margin-left: 20px; text-indent: 0; padding-left: 0; cursor: pointer; line-height: 22px !important; margin-bottom: 5px; }
+.pelling-bolt-main-design .pricing-card .pricing-card-content ul.pricing-features li:before { content: ''; background-image: url("https://quickbooks.intuit.com/etc/designs/harmony/images/global-sprite.svg"); background-position: -80px -394px; width: 11px; height: 15px; background-repeat: no-repeat; display: inline-block; position: absolute; left: -20px; top: 0; }
+
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch { display: block; margin: 40px 0 0; position: relative; min-height: 36px; text-align: center; /* Rounded sliders */ }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch span.text { font-size: 16px; font-weight: 700; line-height: 34px; display: inline-block; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .tt-toggle-switch span.text { float: left; } }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch span.text.discount { display: inline-block; background: #c9007a; color: #fff; font-size: 10px; line-height: 22px; font-weight: 400; margin-left: 5px; border-radius: 7px; padding: 0 4px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .tt-toggle-switch span.text.discount { font-size: 16px; line-height: 36px; margin-left: 20px; padding: 0 15px; } }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .switch { position: relative; display: inline-block; width: 60px; height: 34px; margin: 0 5px; top: -8px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .tt-toggle-switch .switch { float: left; margin: 0 20px; top: 0; } }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .switch input { opacity: 0; width: 0; height: 0; }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .slider { position: absolute; cursor: pointer; top: 0; left: 0; right: 0; bottom: 0; background-color: #ccc; -webkit-transition: .4s; transition: .4s; background-image: linear-gradient(to bottom, #00c1bf, #53b700); background-color: #00c1bf; }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .slider:before { position: absolute; content: ""; height: 26px; width: 26px; left: 4px; bottom: 4px; background-color: white; -webkit-transition: .4s; transition: .4s; }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch input:checked + .slider:before { -webkit-transform: translateX(26px); -ms-transform: translateX(26px); transform: translateX(26px); }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .slider.round { border-radius: 34px; }
+.pelling-bolt-main-design__pricing-cards .tt-toggle-switch .slider.round:before { border-radius: 50%; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title { margin: 40px auto 20px auto; text-align: center; clear: both; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title .ctext { text-align: center; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title .ctext h3 { color: #c9007a; background: #edeef0; overflow: hidden; text-align: center; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title .ctext h3:before, .pelling-bolt-main-design__pricing-cards .pink-line-title .ctext h3:after { background-color: #c9007a; content: ""; display: inline-block; height: 1px; position: relative; vertical-align: middle; width: 50%; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title .ctext h3:before { right: 0.5em; margin-left: -50%; }
+.pelling-bolt-main-design__pricing-cards .pink-line-title .ctext h3:after { left: 0.5em; margin-right: -50%; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card-lineups { background-color: #fff; overflow: hidden; -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); border-radius: 4px; }
+  .pelling-bolt-main-design__pricing-cards .cpricing-card-lineups .row { display: table; }
+  .pelling-bolt-main-design__pricing-cards .cpricing-card-lineups .row .col-sm-4 { float: none; display: table-cell; vertical-align: top; border-left: 1px solid #ccc; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card { display: block; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card:first-child { border-left: 0; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card hr { border: 0; margin-bottom: 5px; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-section { margin: 0 0 0 20px !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-section span { font-weight: 700 !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header { border-bottom: 1px solid #2ca01c; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header h3, .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header p { color: #393a3d !important; font-weight: 700; text-align: center; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header p { font-size: 16px !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header h3 { font-size: 22px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header { padding-left: 20px !important; border-bottom: 0; }
+  .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header h3, .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header p { text-align: left; }
+  .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-header h3 { border-bottom: 2px solid #2ca01c; margin-bottom: 10px; padding-bottom: 10px; display: inline-block; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content { height: auto !important; padding: 0; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section { margin: 20px auto 0 !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .price { letter-spacing: 0; font-size: 22px !important; padding-right: 10px !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .price { font-size: 24px !important; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .price .ac { letter-spacing: 0 !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .price .line-through { border-top: 1px solid #afafaf !important; top: 29px !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section { margin: 0 0 0 20px !important; }
+  .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .aw, .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .awYr { font-size: inherit !important; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .red-price-text { margin: auto !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .pricing-section .red-price-text { margin: 0 !important; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ctext p { text-align: center !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ctext p { text-align: left !important; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ccta { display: block; margin-right: 0; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ccta { display: inline-block; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content a.ctaprimary, .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ctaTrialLink { min-width: 180px; text-align: center; display: inline-block; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content a.ctaprimary, .pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ctaTrialLink { margin-left: 15px !important; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .pricing-card-content .ctaTrialLink { color: #393a3d !important; font-size: 16px !important; padding: 0 24px !important; border: 2px solid #393a3d; display: inline-block; align-items: center; border-radius: 25px; position: relative; overflow: hidden; line-height: 36px; vertical-align: bottom; width: auto; min-height: 36px !important; font-weight: 600 !important; margin-top: 20px; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion { margin: 0; margin-top: 40px; width: 100%; border-top: 1px solid #ccc; padding-top: 20px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion { border-top: 0; padding-top: 0; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .col-md-5 { width: 100%; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .col-md-7 { display: none !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel { margin: 0 auto; width: 90%; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel { width: 300px; max-width: 90%; } }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel p { text-align: left !important; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel .panel-body.collapse { display: none; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel .panel-body ul { padding: 23px 10px 0 !important; border-top: 1px solid #ccc; padding-bottom: 30px !important; background: #fbfbfb; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card .cfeatures-accordion .panel .panel-body ul li { border: 0 !important; color: inherit; font-size: 14px; line-height: normal !important; }
+
+.pelling-bolt-main-design__pricing-feature-popups { position: fixed; z-index: 99999; bottom: 0; left: 0; background: rgba(0, 0, 0, 0.38); height: 100vh; width: 100%; display: none; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups { background-color: #fff; border-top: 8px solid #53b700; position: absolute; bottom: 0; width: 100%; min-height: 100vh; -moz-transform: translateY(100%); -ms-transform: translateY(100%); -webkit-transform: translateY(100%); transform: translateY(100%); -moz-transition: -moz-transform 300ms; -o-transition: -o-transform 300ms; -webkit-transition: -webkit-transform 300ms; transition: transform 300ms; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups { min-height: unset; } }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .cta-popup-close { position: absolute; right: 0; top: 10px; font-size: 28px; display: inline-block; width: 30px; height: 30px; text-align: center; line-height: 30px; cursor: pointer; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content { display: none; margin: 40px 0 60px; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content h3 { position: relative; margin-bottom: 30px; padding-bottom: 5px; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content h3:before { content: ''; position: absolute; bottom: 0; width: 50px; height: 3px; background-color: #53b700; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content ul { padding-left: 20px; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content ul li { list-style: disc; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups .feature-popup-content.active { display: block; }
+.pelling-bolt-main-design__pricing-feature-popups .pricing-card-popups.up { -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); }

@@ -1,0 +1,209 @@
+
+/*==================Starts css for View==================*/
+	.viewTitle{
+		border-bottom: 1px solid white;
+	}
+	.viewTitle img{
+		 padding-left: 20px;
+		 padding-top: 4px; 
+	}
+/*==================Ends css for View==================*/
+/*==================Starts css for Tab1==================*/
+	.div_content {
+	    text-align: center;
+	    width: 110px;
+	    height: 110px;
+	    background-color: #fcfcfc;
+	    float: left;
+	    border: solid 1px #DADADA;
+	    padding: 5px;
+	    margin: 10px;
+	}
+
+	.div_content a img {
+	    width: 70px;
+	    height: 70px;
+	}
+
+	.div_content a p {
+	    color:#4BB2DE !important; 
+	    font-size: 11px;
+    	font-weight: bold;
+	    line-height: 11px;
+    	margin-top: 7px;
+
+	}
+	.title_name {
+	    display: block;
+	    width: 95%;
+	    float: left;
+	    border-bottom: dashed 1px #aaa;
+	    color: #444;
+	    padding-bottom: 3px;
+	}
+
+/*==================Ends css for Tab1==================*/
+
+/*==================Starts css for Tab2==================*/
+
+	#at_a_glance {
+	    -moz-border-radius: 5px 5px 5px 5px;
+	    background-color: #F8F8F8;
+	    /*background-color: #EEEEEE;*/
+	    border: 1px solid #CCC;
+	    float: left;
+	    height: auto;
+	    margin: 0 0 0 5px;
+	    padding: 10px 5px 10px 5px;
+	    text-align: center;
+	    /*width: 700px;*/
+	    width: 100%;
+	}
+	.glance_container{
+		padding: 10px;
+	}
+	.blue_bg {
+	    background-color: #fafafa;
+	}
+	.listing_big_image {
+	    -moz-border-radius: 3px 3px 3px 3px;
+	    -moz-box-shadow: 0 0 4px rgba(207, 207, 207, 0.5);
+	    border: 1px solid #C8C8C8;
+	    /*width: 50px;*/
+	    /*height: 62px;*/
+	    width: 80px;
+	    height: 75px;
+	    float: left;
+	    padding: 5px;
+	}
+
+	.listing_container {
+	    -moz-border-radius: 3px 3px 3px 3px;
+	    background-color: #FFFEFE;
+	    border: 1px solid #D2D2D2;
+	    float: left;
+	    /*height: 62px;*/
+	    height: 75px;
+	    /*height: 100%;*/
+	    margin-left: 5px;
+	    padding: 5px;
+	    width: 85%;
+	}
+	.listing_container ul > li {
+	    font-size: 11px;
+	    /*display: inline;*/
+	    margin: 0;
+	    padding: 2px 20px 0 15px;
+	    float: none;
+	    line-height: 20px;
+	}
+	#graphTab {
+	    border: 1px solid #CCC;
+	    background-color: #F8F8F8;
+	    /*background-color: #EEEEEE;*/
+	    float: left;
+	    /*width: 96%;*/
+	    width: 100%;
+	    /*height: 290px;*/
+	    margin: 15px 0px 0px 5px;
+	    padding: 10px;
+	    -moz-border-radius: 3px 3px 3px 3px;
+	}
+	.panel-group .panel {
+	    background-color: #E0E0E0;
+	}
+	.panel-group .panel .panel-heading {
+	    /*background-color: #BDCAD9;*/
+	    /*background-color: #EEEEEE;*/
+	    /*padding: 0px 10px;*/
+	    font-size: 16px;
+	}
+
+/*==================Ends css for Tab2==================*/
+
+
+/*==================Starts css for Loading==================*/
+
+.loader {
+  color: #000000;
+  font-size: 40px;
+  text-indent: -9999em;
+  overflow: hidden;
+  width: 1.05em;
+  height: 1.05em;
+  border-radius: 50%;
+  margin: 72px auto;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load6 2.7s infinite ease, round 2.7s infinite ease;
+  animation: load6 2.7s infinite ease, round 2.7s infinite ease;
+}
+@-webkit-keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@keyframes load6 {
+  0% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  5%,
+  95% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+  10%,
+  59% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.087em -0.825em 0 -0.42em, -0.173em -0.812em 0 -0.44em, -0.256em -0.789em 0 -0.46em, -0.297em -0.775em 0 -0.477em;
+  }
+  20% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.338em -0.758em 0 -0.42em, -0.555em -0.617em 0 -0.44em, -0.671em -0.488em 0 -0.46em, -0.749em -0.34em 0 -0.477em;
+  }
+  38% {
+    box-shadow: 0 -0.83em 0 -0.4em, -0.377em -0.74em 0 -0.42em, -0.645em -0.522em 0 -0.44em, -0.775em -0.297em 0 -0.46em, -0.82em -0.09em 0 -0.477em;
+  }
+  100% {
+    box-shadow: 0 -0.83em 0 -0.4em, 0 -0.83em 0 -0.42em, 0 -0.83em 0 -0.44em, 0 -0.83em 0 -0.46em, 0 -0.83em 0 -0.477em;
+  }
+}
+@-webkit-keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes round {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+/*==================Ends css for Loading==================*/
+

@@ -1,0 +1,288 @@
+/*@media screen and (min-width: 544px) and(max-width: 768px)
+{
+ #homepage {
+	background-position: -90px 283px;
+	top: 110px;
+	background-size: 647px 256px;
+}
+#main-menu .has-sub{
+	font-size: 10px
+}
+}*/
+
+/*@media screen and(min-width: 961px) and (max-width: 1170px){
+	#homepage {
+		position: relative;
+		min-height: 465px;
+		max-width: 100%;
+		background: url("../images/naba-hand.png") no-repeat;
+		background-position: -150px 276px;
+		animation: slide 10s ease-in-out;
+		background-size: contain;
+		top: 115px;
+		margin-top: 25px
+	}
+}*/
+
+@media(min-width: 960px) {
+
+	 /*#homepage {
+		position: relative;
+		min-height: 465px;
+		max-width: 100%;
+		background: url("../images/naba-hand.png") no-repeat;
+		background-position: -150px 276px;
+		animation: slide 10s ease-in-out;
+		background-size: contain;
+		top: 60px;
+	}*/
+
+	footer.main-footer {
+			margin-top: 20px;
+		}
+}
+@media screen and (min-width:320px) and (max-width: 599px) {
+.main-footer p {
+	font-size: 8px;
+}
+footer.main-footer.footer-type-2 {
+	margin-top: 70px;
+}
+	#homepage {
+
+		background-image:  url("../images/naba-hand.png") no-repeat;
+		background-position: -2px 289px;
+		background-size: contain;
+		animation: slide 10s ease-in-out;
+		top: 10px
+
+	}
+	
+	#homepage p {
+		font-size: 9px;
+		/* line-height: 7px; */
+		font-family: arial;
+		padding: 20px 5px;
+	}
+	.featuresdiv1 {
+		width: 80px;
+		height: 80px;
+		top: 217px;
+		left: 68px;
+	}
+	.featuresdiv2 {
+		width: 80px;
+		height: 80px;
+		padding-top: -1px;
+		left: 31px;
+		top: 135px;
+	}
+	.featuresdiv3 {
+		width: 80px;
+		height: 80px;
+		left: 104px;
+		top: 62px;
+	}
+	.featuresdiv4 {
+		width: 80px;
+		height: 80px;
+		background-color: #eb5b77;
+		left: 111px;
+		top: 147px;
+	}
+	.featuresdiv5 {
+		width: 80px;
+		height: 80px;
+		left: 187px;
+		top: 123px;
+	}
+	.featuresdiv6 {
+		width: 80px;
+		height: 80px;
+		left: 165px;
+		top: 215px;
+	}
+}
+
+@media screen and (min-width:414px) and (max-width: 736px) {
+	#homepage {
+	background-position: center bottom;
+	background-size: contain;
+	position: relative;
+	top: 72px;
+}
+footer.main-footer.footer-type-2 {
+	margin-top: 132px;
+}
+	.main-footer p {
+		font-size: 8px;
+	}
+	.featuresdiv4 {
+		left: 186px;
+		top: 182px;
+	}
+	.featuresdiv6 {
+		left: 243px;
+		top: 251px;
+	}
+	.featuresdiv5 {
+		left: 277px;
+		top: 160px;
+	}
+	.featuresdiv3 {
+		left: 191px;
+		top: 92px;
+	}
+	.featuresdiv2 {
+		left: 100px;
+		top: 165px;
+	}
+	.featuresdiv1 {
+		top: 254px;
+		left: 133px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 960px) {
+
+#homepage {
+	background-position: center bottom;
+	background-size: contain;
+	position: relative;
+	top: 230px;
+}
+
+footer.main-footer.footer-type-2 {
+	margin-top: 170px;
+}
+.main-footer p {
+	font-size: 8px;
+}
+
+footer.main-footer.footer-type-2 {
+	/* clear: both; */
+	top: 278px;
+}
+	.featuresdiv4 {
+		left: 409px;
+		top: -15px;
+	}
+	.featuresdiv6 {
+		left: 473px;
+		top: 96px;
+	}
+	.featuresdiv5 {
+		left: 536px;
+		top: -15px;
+	}
+	.featuresdiv3 {
+		left: 409px;
+		top: -133px;
+	}
+	.featuresdiv2 {
+		left: 289px;
+		top: -29px;
+	}
+	.featuresdiv1 {
+		top: 86px;
+		left: 324px;
+	}
+
+}
+
+@media screen and (min-width: 720px) and (max-width: 1280px) {
+
+#homepage {
+	background-position: center bottom;
+	background-size: contain;
+	position: relative;
+	top: 226px;
+}
+
+footer.main-footer.footer-type-2 {
+	/*margin-top: 170px;*/
+}
+.page-container{
+	/*min-height: 250px*/
+}
+.main-footer p {
+	font-size: 8px;
+}
+
+footer.main-footer.footer-type-2 {
+	/* clear: both; */
+	top: 220px;
+}
+	.featuresdiv4 {
+		left: 409px;
+		top: -15px;
+	}
+	.featuresdiv6 {
+		left: 473px;
+		top: 96px;
+	}
+	.featuresdiv5 {
+		left: 536px;
+		top: -15px;
+	}
+	.featuresdiv3 {
+		left: 409px;
+		top: -133px;
+	}
+	.featuresdiv2 {
+		left: 289px;
+		top: -29px;
+	}
+	.featuresdiv1 {
+		top: 86px;
+		left: 324px;
+	}
+
+}
+@media screen and(min-width: 768px) and (max-width: 1366px){
+
+	#homepage{
+
+			background-position: -90px 283px;
+			background-size: contain;
+			top: 360px
+	}
+	.page-container{
+		margin-top: 20px
+
+	}
+
+}
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+#homepage {
+	background-position: -90px 283px;
+	 top: 176px; 
+	background-size: contain;
+}
+	.featuresdiv4 {
+		left: 415px;
+		top: 114px;
+	}
+	.featuresdiv6 {
+		left: 506px;
+		top: 209px;
+	}
+	.featuresdiv5 {
+		left: 534px;
+		top: 63px;
+	}
+	.featuresdiv3 {
+		left: 398px;
+		top: -1px;
+	}
+	.featuresdiv2 {
+		left: 291px;
+		top: 88px;
+	}
+	.featuresdiv1 {
+		top: 214px;
+		left: 333px;
+	}
+
+}
+

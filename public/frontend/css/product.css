@@ -1,0 +1,26 @@
+@media (min-width: 768px) { .pelling-bolt-main-design h2 { margin-bottom: 20px; } }
+.pelling-bolt-main-design__hero-txt-img.newH1 { margin-top: 40px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 { margin-bottom: 0; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 .bg-grey100:after { content: ''; background-color: #ebedf0; position: absolute; left: 20%; bottom: 21%; width: 100vw; height: 85%; z-index: 0; } }
+@media (min-width: 768px) and (min-width: 1300px) { .pelling-bolt-main-design__hero-txt-img.newH1 .bg-grey100:after { left: 26%; } }
+
+.pelling-bolt-main-design__hero-txt-img.newH1 img { width: auto; height: auto; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants { position: relative; width: 644px; max-width: 100%; overflow: hidden; z-index: 10; }
+@media (min-width: 1300px) { .pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants { max-width: 140%; } }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants:before { content: ''; display: block; padding-bottom: 67.54658%; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--mobile, .pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--tablet, .pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--desktop { position: absolute; padding-bottom: 0; height: auto; opacity: 0; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--mobile { width: 16.14907%; left: 31.8323%; top: 47.58621%; animation: fadeIn 1s .2s ease-out forwards, slideUp 1s .2s ease-out forwards; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--tablet { width: 35.86957%; left: 1.70807%; top: 14.02299%; animation: fadeIn 1s .4s ease-out forwards, slideUp 1s .4s ease-out forwards; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .hero-img--cloud-accountants--desktop { width: 70.03106%; left: 28.72671%; top: 0.91954%; animation: fadeIn 1s .6s ease-out forwards, slideUp 1s .6s ease-out forwards; }
+@keyframes fadeIn { 0% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes slideUp { 0% { transform: translateY(15%); }
+  100% { transform: translateY(0); } }
+.pelling-bolt-main-design__three-cols-icons { padding-top: 20px; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pink-line-title .ctext h3 { background-color: transparent; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pricing-card { border: 0; background: transparent; box-shadow: none; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pricing-card .col-md-4 { border: 0; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pricing-card h4 { margin: 20px 15px -10px; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pricing-card .pricing-card-content ul.pricing-features li { cursor: default !important; }
+.pelling-bolt-main-design .pelling-bolt-main-design.tt-pricing-cards .pricing-card .pricing-card-content ul.pricing-features li:before { content: ''; position: absolute; left: -20px; width: 16px; height: 16px; background: url(ic_check3.png); background-size: contain; background-repeat: no-repeat; }
+.pelling-bolt-main-design__pricing-cards .cpricing-card { display: block; display: block; -webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.17); -moz-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.17); box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25); border-radius: 4px; padding: 10px 0 2px; background-color: #fff; }

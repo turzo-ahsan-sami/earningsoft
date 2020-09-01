@@ -1,0 +1,43 @@
+
+/*==================Starts css for Tab of HRM==================*/
+.nav.nav-tabs > li > a {
+    background-color: #BDCAD9 !important;
+}
+.nav.nav-tabs > li > a:hover {
+    background-color: #A6A6A6 !important;
+}
+.nav.nav-tabs > li.active > a {
+    background-color: #EEEEEE !important;
+}
+.table tbody .color-tr:nth-child(1) {
+    background-color: #e1e3e8 !important;
+}
+.table tbody .color-tr:nth-child(2) {
+    background-color: #e1e3e8 !important;
+}
+.table tbody .color-tr:nth-child(3) {
+    background-color: white !important;
+}
+.table tbody .color-tr:nth-child(4) {
+    background-color: #e1e3e8 !important;
+}
+.table tbody .color-tr:nth-child(5) {
+    background-color: white !important;
+}
+.table tbody .color-tr:nth-child(6) {
+    background-color: #e1e3e8 !important;
+}
+.table tbody .color-tr:nth-child(7) {
+    background-color: white !important;
+}
+.table tbody .color-tr:nth-child(8) {
+    background-color: white !important;
+}
+.table tbody tr.color-tr:hover {
+  background-color: #BDCAD9 !important;
+}
+.nav.nav-tabs + .tab-content {
+    padding-left: 0;
+    padding-right: 0;
+}
+/*==================Ends css for Tab of HRM==================*/

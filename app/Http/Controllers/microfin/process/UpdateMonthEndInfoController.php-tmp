@@ -1,0 +1,32 @@
+<?php
+
+namespace App\Http\Controllers\microfin\process;
+
+use App\Http\Controllers\Controller;
+use App\Http\Controllers\microfin\process\MonthEndStoreInfo;
+
+use DB;
+
+class UpdateMonthEndInfoController extends Controller {
+
+	public function index() {
+		$updateInfo = new MonthEndStoreInfo;
+
+		$branchIds       = [84];
+		$monthStartDates = ['2017-12-01'];
+		$monthEndDates   = ['2017-12-31'];
+
+		foreach ($branchIds as $branchId) {
+			foreach ($monthEndDates as $key => $monthEndDate) {
+				$updateInfo->storeTotalMemberInfo($branchId, $monthStartDates[$key], $monthEndDate);
+				$updateInfo->storeMemberInfo($branchId, $monthStartDates[$key], $monthEndDate);
+				$updateInfo->storeMemberInfoCategoryWise($branchId, $monthStartDates[$key], $monthEndDate);
+				$updateInfo->storeSavingsInfo($branchId, $monthStartDates[$key], $monthEndDate);
+			}
+
+			$branchName = DB::table('gnr_branch')->where('id', $branchId)->value('name');
+			echo $branchName.' Updated<br>';
+		}
+
+	}
+}

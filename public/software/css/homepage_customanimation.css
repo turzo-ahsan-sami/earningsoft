@@ -1,0 +1,158 @@
+#homepage {
+	position: relative;
+	min-height: 425px;
+	max-width: 100%;
+	/*background-image  : url("../images/naba-hand.png");*/
+	background-repeat : no-repeat;
+	background-size: contain;
+	background-position: center bottom;
+	/*top: 119px;*/
+}
+.bg-overlay {
+	position: absolute;
+	content: "";
+	background-color: rgba(238,238,238);
+	height: 129px;
+	width: 222px;
+	top: 391px;
+	left: 184px;
+	border-radius: 12%;
+	/* opacity: 0.2; */
+}
+.bg-overlay::before {
+	content: "";
+	height: 60px;
+	width: 35px;
+	background-color: #eee;
+	position: absolute;
+	top: -30px;
+	left: 42px;
+	border-radius: 57%;
+}
+
+#homepage img {
+	position: absolute;
+	top: 308px;
+	width: 514px;
+	margin: 0 auto;
+	display: block;
+	left: 203px;
+}
+#homepage p {
+	color: #fff;
+	text-align: center;
+	display: block;
+	font-family: arial;
+	font-size: 12px;
+
+}
+.featuresdiv1 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #5193ae;
+	border: 2px solid #fff;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	top: 222px;
+	left: 408px;
+	display: none;
+	box-shadow: 2px 4px 7px 1px #666;
+	padding-top: 0px;
+}
+.featuresdiv2 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #296881;
+	padding-top: -1px;
+	border: 2px solid #fff;
+	/* float: left; */
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	left: 350px;
+	top: 91px;
+	display: none;
+	box-shadow: 2px 4px 7px 1px #666;
+}
+.featuresdiv3 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #ac41bc;
+	padding-top: 0px;
+	border: 2px solid #fff;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	left: 469px;
+	top: -7px;
+	display: none;
+	box-shadow: 2px 4px 7px 1px #666;
+}
+.featuresdiv4 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #eb5b77;
+	padding: 0px;
+	border: 2px solid #fff;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	left: 468px;
+	top: 115px;
+	box-shadow: 2px 4px 7px 1px #666;
+	display: none;
+	animation: microfin_title 10s ease-in-out;
+	-webkit-animation: microfin_title 10s ease-in-out;
+}
+.featuresdiv5 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #58c684;
+	padding: 0px;
+	border: 2px solid #fff;
+	float: left;
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	left: 586px;
+	top: 85px;
+	display: none;
+	box-shadow: 2px 4px 7px 1px #666;
+}
+.featuresdiv6 {
+	position: absolute;
+	content: "";
+	width: 110px;
+	height: 110px;
+	background-color: #a26b25;
+	/* padding: 10px; */
+	border: 2px solid #fff;
+	/* float: left; */
+	border-radius: 50%;
+	text-align: center;
+	color: saddlebrown;
+	left: 549px;
+	top: 213px;
+	display: none;
+	box-shadow: 2px 4px 7px 1px #666;
+}
+.featuresdiv p {
+	color: saddlebrown;
+	padding-top: 30px;
+	text-align: center;
+	margin-top: 5px;
+}

@@ -1,0 +1,669 @@
+.table thead tr th {
+    text-transform: uppercase !important;
+    font-size: 11px !important;
+}
+.form-horizontal .control-label {
+	text-align: left !important;
+}
+
+footer.main-footer .footer-inner {
+}
+footer.main-footer .footer-text {
+
+	text-align: center;
+	float: none !important;
+  padding: 5px
+  
+}
+footer.main-footer .go-up {
+
+	  position: absolute;
+    right: 25px;
+    top: 20px
+
+}
+
+.panel-border{
+    margin:0;
+}
+.table{
+    font-size:12px;
+    margin-bottom:0;
+    margin-left:0;
+}
+.table thead tr th{
+    color: white /*!important*/;
+    background-color: #696969 !important;
+    /*border:1px solid white !important;*/
+}
+.table thead tr th,
+.table tbody tr th,
+.table tbody tr td{
+    text-align: center;
+	vertical-align: middle;
+}
+.table tbody tr td{
+    padding: 3px 0;  10px top & bottom padding, 0px left & right ;/*for td height*/
+}
+.table tr:nth-child(even){background-color: white;}
+.table tr:nth-child(odd){background-color:  #e1e3e8 !important;}
+.table tr:hover {
+  background-color: /* lightyellow */   #BDCAD9 !important;
+}
+
+div .viewPageTitle{
+    font-size:25px;
+    font-family: Georgia, serif;
+    color:white;
+}
+.slNo{
+    background-color:#696969;
+    color:white;
+    border-bottom:0.1px solid white !important;
+}
+#areaListView > tbody > tr > td,
+#zoneListView > tbody > tr > td,
+#regionListView > tbody > tr > td { 
+    color:#000 !important;
+    padding: 3px 5px;
+}
+#areaListView > tbody > tr > td:first-child,
+#zoneListView > tbody > tr > td:first-child,
+#regionListView > tbody > tr > td:first-child {
+    background-color:#696969 !important;
+    color:white !important;
+    border-bottom:0.1px solid white !important;
+}
+#areaListView > tbody > tr > td:last-child a,
+#zoneListView > tbody > tr > td:last-child a,
+#regionListView > tbody > tr > td:last-child a { 
+    padding: 0 5px;
+}
+.viewTitle{
+    background-color: #708090;
+    padding:5px;
+    padding-top:7px;
+    min-height: 50px;
+}
+
+.footerTitle{
+    background-color: #708090;
+    padding:5px;
+    min-height: 50px;
+}
+.addViewBtn{
+    border:1px solid black;
+    background-color:#708090;
+    border-radius: 10px;
+    color:white !important;
+}
+.addViewBtn:hover{
+    border:1px solid black;
+    background-color:#696969;
+}
+.addIcon{
+    color:#00BFFF; 
+    font-size:16px; 
+    padding-right:10px;
+}
+.viewIcon{
+    color:#00BFFF; 
+    font-size:16px; 
+    padding-right:10px;
+}
+.emptySpace{
+     /*background-image: url('../images/catalog/image15.png');*/
+     background-repeat: no-repeat;
+     background-attachment: absolute;
+     background-position: right;
+     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+     filter: grayscale(100%);
+     opacity: 0.2;
+}
+.btn-info{
+    background-color:#708090 !important;
+}
+.btn-info:hover{
+    background-color:#696969 !important;
+}
+#show-details-modal .modal-content,
+#show-details-modal .modal-content,
+#show-transaction-details-modal .modal-content {
+    border: none !important;
+    padding: 0 !important;
+}
+#show-details-modal .modal-content .panel,
+#show-update-modal .modal-content .panel,
+#show-transaction-details-modal .modal-content .panel {
+    padding: 0;
+    margin: 0;
+}
+#show-details-modal .modal-content .panel .panel-heading,
+#show-transaction-details-modal .modal-content .panel .panel-heading {
+    margin: 0;
+    padding: 10px 15px !important;
+}
+#show-update-modal .modal-dialog .modal-heading {
+    height: 40px;
+}
+#show-details-modal .modal-content .panel .panel-heading .panel-title,
+#show-transaction-details-modal .modal-content .panel .panel-heading .panel-title {
+    text-shadow: none;
+    font-size: 17px !important;
+}
+#show-update-modal .modal-dialog .modal-heading .modal-title {
+    text-shadow: none;
+    font-size: 17px !important;
+    float: left;    
+}
+#show-details-modal .modal-content .panel .panel-heading .panel-options,
+#show-transaction-details-modal .modal-content .panel .panel-heading .panel-options {
+    padding-top: 5px !important; 
+}
+#show-update-modal .modal-dialog .modal-heading .panel-options {
+    padding-top: 5px !important; 
+}
+#show-details-modal .modal-content .panel .panel-heading .panel-options .close,
+#show-update-modal .modal-dialog .modal-heading .panel-options .close,
+#show-transaction-details-modal .modal-content .panel .panel-heading .panel-options .close {
+    color: #FFF !important;
+    opacity: 1 !important;
+    font-size: 15px !important;
+    text-shadow: none !important; 
+}
+.panel .panel-heading  .panel-title {
+    float: left;
+}
+#show-details-modal .modal-dialog .modal-content .panel .modal-footer,
+#show-transaction-details-modal .modal-dialog .modal-content .panel .modal-footer {
+    padding: 15px 25px;
+    border-top: none;
+}
+#delete-confirmation-modal .modal-header,
+.showModal {
+    background-color: #000;
+    height: 40px;
+    color: #FFF;
+    padding: 10px 15px !important;
+}              
+#delete-confirmation-modal .modal-header .modal-title {
+    float: left;
+}
+#delete-confirmation-modal .modal-header .close {
+    color: #FFF !important;
+    opacity: 1 !important;
+    font-size: 15px !important;
+    text-shadow: none !important;
+    padding-top: 5px !important;
+}
+#delete-confirmation-modal .modal-content {
+    border: none !important;
+    padding: 5px 30px !important;
+}
+#delete-confirmation-modal .modal-content { 
+    text-align: center;
+}
+#delete-confirmation-modal .modal-footer { 
+    background-color: #FFF;
+    color: #FFF;
+}
+.panel-title{
+	font-size:17px !important;
+    font-weight: 400 !important;
+    color:white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.panel-default{
+    color:white !important; 
+    padding-top:10px !important;
+}
+.panel-option{
+    padding-bottom:0px !important;
+}
+.panelBodyView{
+    color:white !important; 
+    padding-top:10px !important;
+}
+.successMseg{
+    position:absolute;
+    top:0px !important;
+    width:100%;
+    background-color: #90EE90;/*#3CB371#90EE90#32CD32*/
+    /*text-align: center;*/
+    /*padding-top: 8px;*/
+    max-height: 70px;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: white;
+}
+ form p span .errormsg{
+        text-shadow: 0 0 0.2em #F87, 0 0 0.2em #F87;
+    }
+.addProductTable thead tr th{
+    padding: 8px 0;  10px top & bottom padding, 0px left & right ;
+	background-color: #e2e3e7 !important;
+	color: black !important;
+}
+.addProductTable tbody tr td{
+	 padding: 3px 20px;
+	 background-color: #FAF0E6;	
+}
+.addProductTable tbody tr:hover td{
+   padding: 3px 20px;
+   background-color: #EAF0E6; 
+}
+.addProductTable tbody tr td .name_list{
+	 background-color:white;
+}
+#erpModuleAccordionList {
+    background: #f4f4f4;
+}
+#erpModuleAccordionList li a {
+    background: #2c2e2f;
+    color: #FFF;
+}
+#erpModuleAccordionList li.active a {
+    background: #f4f4f4;
+    color: #000;
+}
+#erpModuleAccordionList .tab-content {
+    background: #f4f4f4;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.42;
+    border-radius: 15px;
+}
+
+.showBranchIcon {
+    display: inline !important;
+}
+
+#main-menu > li > a {
+    padding: 0 3px !important;
+}
+
+@media screen and (min-width: 600px) {
+    #main-menu > li > a {
+        padding: 0 3px !important;
+    }
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #main-menu > li > a > i {
+        display: none !important;
+    }
+}
+
+/* Print styling */
+
+@media print {
+
+[class*="col-sm-"] {
+  float: left;
+}
+
+[class*="col-xs-"] {
+  float: left;
+}
+
+.col-sm-12, .col-xs-12 { 
+  width:100% !important;
+}
+
+.col-sm-11, .col-xs-11 { 
+  width:91.66666667% !important;
+}
+
+.col-sm-10, .col-xs-10 { 
+  width:83.33333333% !important;
+}
+
+.col-sm-9, .col-xs-9 { 
+  width:75% !important;
+}
+
+.col-sm-8, .col-xs-8 { 
+  width:66.66666667% !important;
+}
+
+.col-sm-7, .col-xs-7 { 
+  width:58.33333333% !important;
+}
+
+.col-sm-6, .col-xs-6 { 
+  width:50% !important;
+}
+
+.col-sm-5, .col-xs-5 { 
+  width:41.66666667% !important;
+}
+
+.col-sm-4, .col-xs-4 { 
+  width:33.33333333% !important;
+}
+
+.col-sm-3, .col-xs-3 { 
+  width:25% !important;
+}
+
+.col-sm-2, .col-xs-2 { 
+  width:16.66666667% !important;
+}
+
+.col-sm-1, .col-xs-1 { 
+  width:8.33333333% !important;
+}
+  
+.col-sm-1,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+float: left !important;
+}
+
+body {
+  margin: 0;
+  padding 0 !important;
+  min-width: 768px;
+  font-family: 'Open Sans' !important;font-style: normal;font-weight: 300;
+}
+
+.container {
+  width: auto;
+  min-width: 750px;
+}
+
+body {
+  font-size: 10px;
+}
+
+a[href]:after {
+  content: none;
+}
+}
+/* print style end */
+
+
+
+/*#famsAssetDepReportTable thead tr th{
+  border: 1px solid white;
+  border-collapse: initial !important;
+}*/
+
+#famsAssetRegisterReportTable thead tr th{
+  vertical-align: top;
+  padding-bottom: 1px;
+  padding-top: 1px;  
+}
+#famsAssetDepReportTable thead tr th{
+  vertical-align: top;
+  padding-bottom: 1px;
+  padding-top: 1px; 
+}
+#famsAssetTransferReportTable thead tr th{
+  vertical-align: top;
+  padding-bottom: 1px;
+  padding-top: 1px;  
+}
+#famsAssetScheduleReportTable thead tr th{
+  vertical-align: top;
+  padding-bottom: 1px;
+  padding-top: 1px;  
+}
+#printView thead tr th{
+  vertical-align: top;
+  padding-bottom: 1px;
+  padding-top: 1px;  
+}
+
+/*#famsAssetDepReportTable tbody tr td{
+  border: 1px solid black;
+}*/
+
+#famsProductTable thead tr {
+  background: #696969 !important;
+}
+
+#famsProductTable thead tr th {
+  border: 1px solid #FFF;
+  background-color: transparent!important;
+  border-bottom: 0 !important;
+  position: relative !important;
+}
+
+.table thead tr th {
+    border: 1px solid #FFF;
+    background: #696969 !important;
+    border-bottom: 0 !important;
+    position: static !important;
+    text-transform: uppercase !important;
+    font-size: 10px !important;
+    letter-spacing: 0.2px !important;
+}
+
+
+#main-menu > li > ul >li > ul{
+    left: 230px !important;
+    top: -42px !important;
+}
+
+
+#main-menu >li > ul > li{
+    height: 40px !important;
+}
+
+.view,
+.entry {
+    font-size: 11px !important;
+    color: #000 !important;
+    font-weight: normal !important;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.white {
+    color: #FFF;
+}
+.black {
+    color: #000;
+}
+.red {
+    color: #F00;
+}
+.green {
+    color: #0F0;
+}
+table.member-info tbody tr .cellValue {
+  color: #333 !important;
+}
+
+table.member-info tbody tr .savings-product-sl {
+    background: #529800;
+    color: #FFF;
+    font-weight: bold;
+    width: 8%;
+    text-align: center; 
+}
+.member-general-info {
+    float: left;
+    width: 100%;
+    padding: 30px 5px;
+}
+.member-general-info .profile-image img {
+    width: 150px;
+    height: auto;
+    border: 1px solid #cecece;
+    padding: 3px;
+}
+table#member-misc,
+table.member-info,
+table.loan-saving-summary-table {
+    color: #000;
+}
+table#member-misc {
+    width: 75%;
+    margin: 10px 0;
+}
+table#member-misc tbody tr th {
+    width: 20%;
+}
+table#member-misc tbody tr th:nth-child(2) {
+    width: 5%;
+    text-align: center;
+}
+table#member-misc tbody tr td {
+    width: 
+}
+table#member-misc tbody tr th,
+table#member-misc tbody tr td,
+table.loan-saving-summary-table thead tr th,
+table.loan-saving-summary-table tbody tr td {
+    color: #000;
+    font-size: 12px;
+}
+table.member-info {
+    width: 100%;
+}
+table.member-info thead tr th {
+    text-align: left !important;
+}
+table.member-info tbody tr td,
+table.loan-saving-summary-table tbody tr td {
+    font-size: 11px;
+    width: 16.67%;
+    text-align: left;
+    padding: 3px;
+}
+table.member-info tr:nth-child(n),
+table.loan-saving-summary-table tr:nth-child(n) {
+    background-color: #f9f9f9 !important;
+}
+table.member-info tr:nth-child(2n),
+table.loan-saving-summary-table tr:nth-child(2n) {
+    background-color: #FFF !important;
+}
+.signature-image-block img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #cecece;
+    padding: 3px;
+}
+.panel .panel-body i {
+    _font-size: 50px;
+    _font-size: 70px;
+    _padding: 0 15%;
+}
+table.signature-image-table {
+    border: none !important;
+}
+table.signature-image-table tr:nth-child(odd) {
+    background-color: #FFF !important;
+}
+table.signature-image-table tbody tr td {
+    color: #000 !important;
+    font-size: 11px;
+    text-align: left;
+    border: none !important;
+    padding-right: 5px;
+    vertical-align: bottom;
+}
+
+.table tbody tr td.name{
+  text-align: left;
+  padding-left: 5px;
+}
+.table tbody tr td.amount{
+  text-align: right;
+  padding-right: 5px ;
+}
+
+.print-icon{
+    font-size: 14px; 
+    margin-top: 10px; 
+    border: 2px solid #525659 ; 
+    border-radius: 5px; 
+    padding: 3px 10px 7px 10px;
+}
+.pagination {
+    float: right !important;
+}
+.searchForm label {
+    margin-bottom: 0 !important;
+    font-size: 11px !important;
+}
+.form-control {
+    font-size: 11px !important;
+    padding: 5px !important;
+}
+.btn-search {
+    background-color: #000 !important;
+    font-size: 11px !important;
+    padding: 7px 12px !important;
+}
+.btn-search:hover {
+    color: #FFF !important;
+}
+.title-section {
+    border-bottom: 1px solid #e1e1e1;
+    margin-bottom: 5px;
+}
+.title-section h1, 
+.title-section h2 {
+    color: #FFF;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 0 0 30px;
+    text-transform: uppercase;
+    margin-bottom: -1px;
+    padding: 0;
+}
+.title-section h1 > span, 
+.title-section h2 > span {
+    display: inline-block;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    border-bottom: 1px solid #000;
+}
+.nav.nav-userinfo {
+    padding-top: 6px;
+}
+
+ #main-menu > li > ul#ots-settings > li > ul {
+        left: 305px !important;
+        top: -42px !important;
+    }
+
+.action > tbody > tr > td:last-child a{
+    color:#000 !important;
+    padding: 0 5px !important;
+}

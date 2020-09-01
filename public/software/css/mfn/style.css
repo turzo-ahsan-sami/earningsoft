@@ -1,0 +1,76 @@
+
+
+#detailsModalTable tbody tr td{
+  width: 25%;
+  text-align: left;
+  padding-left: 5px;
+}
+
+  .modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px; /* Adjusts for spacing */
+}
+
+.modal-dialog {
+
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+        .cbr-replaced {
+            top: 8px!important;
+        }
+        table.samity-details-table-wrapper tbody tr td {
+          padding: 0;
+          border-bottom: none !important;
+          /*vertical-align: top !important;*/
+        }
+        table.samity-details-table tbody tr td {
+          text-align: left;
+          padding: 3px 5px !important;
+          font-size: 11px;
+          border-bottom: 1px solid #EEE!important;
+        }
+        table.TTitleFirstTable tbody tr:last-child td,
+        table.TValueFirstTable tbody tr:last-child td,
+        table.TTitleSecondTable tbody tr:last-child td, 
+        table.TValueSecondTable tbody tr:last-child td {
+          border-bottom: none !important;
+        }
+        table.samity-details-table tbody tr th {
+          text-align: left;
+          padding: 3px 5px;
+          font-weight: normal;
+          font-size:11px;
+        }
+        table.samity-details-table-wrapper tr:nth-child(odd),
+        table.samity-details-table tr:nth-child(odd),
+        table#TTitleFirst tr:nth-child(odd),
+        table#TValueFirst tr:nth-child(odd),
+        table#TTitleSecond tr:nth-child(odd),
+        table#TValueSecond tr:nth-child(odd) {
+          background-color: #f9f9f9 !important;
+        }
+        table.samity-details-table-wrapper tbody tr:nth-child(even):hover td,
+        table.samity-details-table tbody tr:nth-child(even):hover td
+        table#TTitleFirst tbody tr:nth-child(even):hover td,
+        table#TValueFirst tbody tr:nth-child(even):hover td,
+        table#TTitleSecond tbody tr:nth-child(even):hover td,
+        table#TValueSecond tbody tr:nth-child(even):hover td {
+          background-color:#FFF !important;
+        }
+        table tbody tr td.name{
+          text-align: left;
+          padding-left: 5px;
+        }
+    

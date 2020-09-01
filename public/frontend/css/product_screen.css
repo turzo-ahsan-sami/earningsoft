@@ -1,0 +1,302 @@
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-100.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-100.woff") format("woff"); font-weight: 100; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-100-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-100-it.woff") format("woff"); font-weight: 100; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-200.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-200.woff") format("woff"); font-weight: 200; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-200-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-200-it.woff") format("woff"); font-weight: 200; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-300.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-300.woff") format("woff"); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-300-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-300-it.woff") format("woff"); font-weight: 300; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-400.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-400.woff") format("woff"); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-400-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-400-it.woff") format("woff"); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-500.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-500.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-500-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-500-it.woff") format("woff"); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-600.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-600.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-600-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-600-it.woff") format("woff"); font-weight: 600; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-700.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-700.woff") format("woff"); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-700-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-700-it.woff") format("woff"); font-weight: 700; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-800.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-800.woff") format("woff"); font-weight: 800; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-800-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-800-it.woff") format("woff"); font-weight: 800; font-style: italic; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-900.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-900.woff") format("woff"); font-weight: 900; font-style: normal; font-display: swap; }
+@font-face { font-family: "Avenir Next forINTUIT"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-900-it.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/avenir-900-it.woff") format("woff"); font-weight: 900; font-style: italic; font-display: swap; }
+@font-face { font-family: "Geogrotesque"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/geogrotesque-500.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/geogrotesque-500.woff") format("woff"); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: "Geogrotesque"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/geogrotesque-600.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/geogrotesque-600.woff") format("woff"); font-weight: 600; font-style: normal; font-display: swap; }
+@font-face { font-family: "harmonyicons"; src: url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/harmonyicons-regular-webfont.woff2") format("woff2"), url("https://quickbooks.intuit.com/content/dam/intuit/quickbooks/fonts/harmonyicons-regular-webfont.woff") format("woff"); font-weight: "regular-webfont"; font-style: normal; font-display: swap; }
+.pelling-bolt-hero-design h1, .pelling-bolt-hero-design h2, .pelling-bolt-hero-design h3, .pelling-bolt-hero-design h4, .pelling-bolt-hero-design h5, .pelling-bolt-hero-design p, .pelling-bolt-hero-design li, .pelling-bolt-hero-design a, .pelling-bolt-hero-design span, .pelling-bolt-hero-design div, .pelling-bolt-hero-design button, .pelling-bolt-main-design h1, .pelling-bolt-main-design h2, .pelling-bolt-main-design h3, .pelling-bolt-main-design h4, .pelling-bolt-main-design h5, .pelling-bolt-main-design p, .pelling-bolt-main-design li, .pelling-bolt-main-design a, .pelling-bolt-main-design span, .pelling-bolt-main-design div, .pelling-bolt-main-design button { font-family: "Avenir Next forINTUIT", "harmonyicons" !important; text-align: left; -webkit-font-smoothing: antialiased; }
+.pelling-bolt-hero-design .ccta, .pelling-bolt-main-design .ccta { display: inline-block; margin-right: 20px; }
+.pelling-bolt-hero-design .ccta.cta-align-center, .pelling-bolt-main-design .ccta.cta-align-center { text-align: center; margin-right: 0; display: block; }
+.pelling-bolt-hero-design .ccta a, .pelling-bolt-main-design .ccta a { color: #fff !important; font-size: 16px !important; padding: 0 24px !important; border-color: transparent; display: inline-block; align-items: center; border-radius: 18px; position: relative; overflow: hidden; line-height: 36px !important; vertical-align: bottom; width: auto; min-height: 36px !important; font-weight: 600 !important; }
+.pelling-bolt-hero-design .ccta a.ctaprimary, .pelling-bolt-main-design .ccta a.ctaprimary { background-color: #2CA01C !important; }
+.pelling-bolt-hero-design .ccta a.ctaprimary:hover, .pelling-bolt-main-design .ccta a.ctaprimary:hover { background-color: #108000 !important; }
+.pelling-bolt-hero-design .ccta a.ctasecondary, .pelling-bolt-main-design .ccta a.ctasecondary { background-color: #393A3D !important; }
+.pelling-bolt-hero-design .ccta a.ctasecondary:hover, .pelling-bolt-main-design .ccta a.ctasecondary:hover { background-color: #000 !important; }
+.pelling-bolt-hero-design .ccta a.ctatertiary, .pelling-bolt-main-design .ccta a.ctatertiary { border: 2px solid #000; color: #000 !important; }
+.pelling-bolt-hero-design h1, .pelling-bolt-main-design h1 { font-size: 28px !important; line-height: 1.14 !important; font-weight: 700 !important; text-align: left; }
+@media (min-width: 992px) { .pelling-bolt-hero-design h1, .pelling-bolt-main-design h1 { font-size: 44px !important; line-height: 1.09 !important; } }
+.pelling-bolt-hero-design h2, .pelling-bolt-main-design h2 { font-size: 24px; line-height: 28px; text-align: left; }
+@media (min-width: 992px) { .pelling-bolt-hero-design h2, .pelling-bolt-main-design h2 { font-size: 28px; line-height: 32px; } }
+.pelling-bolt-hero-design p, .pelling-bolt-main-design p { font-family: "Avenir Next forINTUIT", "harmonyicons" !important; }
+
+.pelling-bolt-hero-design { color: #fff; text-align: left; background-color: #393A3D; }
+.pelling-bolt-hero-design .chero-layers { position: relative; min-height: 380px; height: auto !important; }
+.pelling-bolt-hero-design .chero-layers .bg-layer, .pelling-bolt-hero-design .chero-layers .overlay-layer, .pelling-bolt-hero-design .chero-layers .bg-img { height: 100% !important; background-size: cover; max-height: unset; }
+.pelling-bolt-hero-design .chero-layers .overlay-layer { overflow: hidden; }
+.pelling-bolt-hero-design .chero-layers .overlay-layer .overlay-bg { height: 100vh; }
+.pelling-bolt-hero-design .chero-layers .content-layer { position: relative; padding: 40px 15px; text-align: left; }
+.pelling-bolt-hero-design .chero-layers .content-layer section, .pelling-bolt-hero-design .chero-layers .content-layer div { position: relative !important; top: unset !important; left: unset !important; transform: none !important; }
+@media (min-width: 992px) { .pelling-bolt-hero-design .chero-layers .content-layer { margin-top: 0 !important; position: absolute; top: 50%; left: 0; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); } }
+.pelling-bolt-hero-design .chero-layers .content-layer .resp_grid div[class^="span"] { height: 100%; }
+.pelling-bolt-hero-design .ccontainer-hero-content-cta-text { margin-top: 0 !important; }
+
+.pelling-bolt-main-design h2 { font-size: 28px !important; line-height: 32px !important; font-weight: 600; }
+.pelling-bolt-main-design #onPageNavResp { overflow: hidden !important; }
+.pelling-bolt-main-design #onPageNavResp h2 { font-size: 17px !important; line-height: 20px !important; }
+.pelling-bolt-main-design #onPageNavResp p { font-size: 14px !important; }
+.pelling-bolt-main-design__two-cols { border-top: 1px solid #ccc; }
+.pelling-bolt-main-design__two-cols .ctext .ccta { margin-top: 30px; }
+.pelling-bolt-main-design__two-cols.txt-img .ctext { padding: 0 40px 0 0 !important; }
+.pelling-bolt-main-design__three-cols-icons .cimage img { padding-bottom: 10px !important; }
+.pelling-bolt-main-design__three-cols-icons img { max-width: 100px !important; height: auto; }
+.pelling-bolt-main-design__energy-bar img { max-width: 90% !important; }
+.pelling-bolt-main-design__faqs .cfaq-qa .llp-faq-head .ctext p { color: #000; }
+.pelling-bolt-main-design__faqs .cfaq-qa .llp-faq-content .ctext p { font-size: 15px !important; line-height: 20px !important; }
+.pelling-bolt-main-design__list { margin-left: 20px !important; }
+.pelling-bolt-main-design__list li { list-style: none !important; position: relative; }
+.pelling-bolt-main-design__list li:before { content: ''; background: url("check.png"); background-size: contain; background-repeat: no-repeat; display: inline-block; width: 15px; height: 15px; position: absolute; left: -20px; top: 2px; }
+.pelling-bolt-main-design__pricing .pricing-card-layout-header { display: none !important; }
+.pelling-bolt-main-design__pricing .cpricing-card-layout.left-pricing { background: transparent !important; }
+.pelling-bolt-main-design__pricing .cpricing-card-layout.left-pricing .pricing-card-layout-content { background: transparent !important; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-sticky-header { background-color: #edeef0; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header { padding-left: 5px; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header { margin: 0 !important; border-right: 10px solid #edeef0; background: #fff; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header div { background-color: transparent !important; margin: 0; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper { padding: 20px; height: 100%; display: flex; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext { background-color: #fff !important; margin: 0; text-align: center; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext h3, .pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext h4, .pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext p { text-align: center; color: #000; white-space: normal; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext h3 { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid #2CA01C; display: inline-block; text-align: center; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header-content-wrapper .ctext p { font-size: 14px !important; line-height: 20px !important; }
+.pelling-bolt-main-design__compare-pricing .comp-chart-table-header .comp-chart-simple-header:nth-child(3):before { content: 'Most popular'; display: block; position: absolute; width: 100%; background: #00C1BF; text-align: center; padding: 10px; font-size: 19px; bottom: 100%; border-top-left-radius: 15px; border-top-right-radius: 15px; }
+.pelling-bolt-main-design__compare-pricing table tr td { background-color: #fff; border-left: 10px solid #edeef0; border-right: 10px solid #edeef0; }
+.pelling-bolt-main-design__compare-pricing table tr td:first-child { background-color: transparent; border-left: 0; border-right: 0; }
+.pelling-bolt-main-design__compare-pricing table tr td .checkmark { background-color: transparent; background-image: url("check.png"); background-repeat: no-repeat; background-size: contain; background-position: center; width: 15px; height: 15px; border-radius: 0; }
+.pelling-bolt-main-design__green-banner { background-image: linear-gradient(to left, #00c1bf, #53b700); background-color: #00c1bf; padding-top: 50px; padding-bottom: 50px; color: #fff !important; text-align: center; }
+.pelling-bolt-main-design__green-banner .ss-bullets-columns { padding-bottom: 0 !important; }
+.pelling-bolt-main-design__green-banner .ctext h3, .pelling-bolt-main-design__green-banner .ctext h4, .pelling-bolt-main-design__green-banner .ctext p { color: #fff; }
+.pelling-bolt-main-design__green-banner .ctext h3 { font-size: 36px !important; line-height: 40px !important; margin-bottom: 10px; }
+.pelling-bolt-main-design__green-banner .ccta { margin-top: 20px; }
+.pelling-bolt-main-design__green-banner.beams { overflow: hidden; }
+.pelling-bolt-main-design__green-banner.beams .content-container { z-index: 9; }
+.pelling-bolt-main-design__green-banner.beams .beam-parent-container { position: absolute; right: 130px; }
+.pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-11, .pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-22, .pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-33 { width: 400px; height: 400px; display: inline-block; position: absolute; }
+.pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-11 { background: url(beam-1-1.svg); bottom: -270px; right: 46px; z-index: 2; }
+.pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-22 { background: url(beam-2-1.svg); z-index: 1; top: -220px; right: -124px; }
+.pelling-bolt-main-design__green-banner.beams .beam-parent-container .beam-33 { background: url(beam-3-1.svg); z-index: 0; top: -109px; right: -103px; }
+.pelling-bolt-main-design__green-banner-two-cols { background-image: linear-gradient(to left, #00c1bf, #53b700); background-color: #00c1bf; padding-top: 20px; padding-bottom: 20px; color: #fff !important; text-align: center; }
+.pelling-bolt-main-design__green-banner-two-cols .ss-bullets-columns { padding-bottom: 0 !important; }
+.pelling-bolt-main-design__green-banner-two-cols .ctext h3, .pelling-bolt-main-design__green-banner-two-cols .ctext h4, .pelling-bolt-main-design__green-banner-two-cols .ctext p { color: #fff; }
+.pelling-bolt-main-design__green-banner-two-cols .ctext h3 { font-size: 24px !important; line-height: 28px !important; margin-bottom: 0px; padding-top: 0 !important; }
+.pelling-bolt-main-design__green-banner-two-cols .ccta a { margin-top: 0; }
+.pelling-bolt-main-design__banner-blue { background-image: linear-gradient(to left, #2db6f8, #0077c5); background-color: #2db6f8; padding-top: 5px; padding-bottom: 5px; color: #fff !important; text-align: center; }
+.pelling-bolt-main-design__banner-blue .ss-bullets-columns { padding-bottom: 0 !important; }
+.pelling-bolt-main-design__banner-blue div { background-color: transparent !important; padding: 0; }
+.pelling-bolt-main-design__banner-blue .ctext { text-align: center; display: block !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__banner-blue .ctext { display: inline-block; } }
+.pelling-bolt-main-design__banner-blue .ctext h3, .pelling-bolt-main-design__banner-blue .ctext h4, .pelling-bolt-main-design__banner-blue .ctext p { color: #fff; }
+.pelling-bolt-main-design__banner-blue .ctext p { line-height: 34px !important; }
+.pelling-bolt-main-design__banner-blue .ctext h3 { font-size: 24px !important; line-height: 28px !important; margin-bottom: 0px; padding-top: 0 !important; }
+.pelling-bolt-main-design__banner-blue .ccta { padding-top: 0; text-align: center; display: block !important; }
+.pelling-bolt-main-design__banner-blue .ccta a { margin-top: 0; }
+.pelling-bolt-main-design__banner-blue.green-bg { background-image: linear-gradient(to left, #00c1bf, #53b700); background-color: #00c1bf; }
+.pelling-bolt-main-design__banner-blue.with-dots .on-page-banner-edge { z-index: 5; }
+.pelling-bolt-main-design__banner-blue.with-dots:before { content: ''; position: absolute; width: 210px; height: 100%; left: 10px; top: 0; background: url(4px-dot-pattern-Left.png); background-size: contain; background-repeat: no-repeat; background-position: left center; z-index: 1; }
+.pelling-bolt-main-design__banner-blue.with-dots:after { content: ''; position: absolute; width: 210px; height: 100%; right: 10px; top: 0; background: url(4px-dot-pattern-Right.png); background-size: contain; background-repeat: no-repeat; background-position: left center; z-index: 1; }
+.pelling-bolt-main-design__banner-blue.with-dots:before, .pelling-bolt-main-design__banner-blue.with-dots:after { display: none; }
+@media (min-width: 1200px) { .pelling-bolt-main-design__banner-blue.with-dots:before, .pelling-bolt-main-design__banner-blue.with-dots:after { display: block; } }
+.pelling-bolt-main-design__slider .glider-contain { width: 100%; border: 0; }
+.pelling-bolt-main-design__slider .glider-contain .glider-slide { border: 0; padding-bottom: 30px; }
+.pelling-bolt-main-design__slider .glider-contain .glider-slide p { font-size: 14px; line-height: 20px; }
+.pelling-bolt-main-design__slider .glider-contain .glider-slide img { height: auto !important; margin-top: 40px; }
+@media (min-width: 992px) { .pelling-bolt-main-design__slider .glider-contain .glider-slide img { margin-top: 0; margin-bottom: 20px; } }
+.pelling-bolt-main-design__slider .glider-contain .glider-slide img.stars { max-width: 100px; height: auto !important; display: inline-block; }
+.pelling-bolt-main-design__slider .glider-contain .glider-slide hr { width: 100px; margin-left: 0; border: 2px solid #2CA01C; border-radius: 4px; }
+.pelling-bolt-main-design__slider .glider-contain .glider-dots button { padding: 0; background: #fff; border: 2px solid #2CA01C; margin: 0 10px; }
+.pelling-bolt-main-design__slider .glider-contain .glider-dots button.active { background: #2CA01C; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card { display: block; -webkit-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); -moz-box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.17); border-radius: 4px; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card:first-child { border-left: 0; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card hr { border: 0; margin-bottom: 5px; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-section { margin: 0 0 0 20px !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-section span { font-weight: 700 !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header { background-color: #2ca01c; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header h3, .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header p { color: #fff; font-weight: 700; text-align: center; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header p { font-size: 16px !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header h3 { font-size: 22px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header { padding-left: 20px !important; padding-bottom: 0 !important; background-color: #fff; }
+  .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header h3, .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header p { color: #393a3d !important; text-align: left; }
+  .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header h3 { position: relative; margin-bottom: 10px; padding-bottom: 10px; display: inline-block; }
+  .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-header h3:before { content: ''; position: absolute; height: 2px; width: 40px; background: #2ca01c; top: 100%; left: 0; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content { height: auto !important; padding: 0; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content section { margin-top: 0; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .mprice { width: 85%; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section { margin: 20px auto 0 !important; padding-bottom: 0 !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section span { font-weight: 500 !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price { letter-spacing: 0; font-size: 20px !important; padding-right: 10px !important; color: #949494 !important; line-height: 30px !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price .aw { font-size: 20px !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price { font-size: 20px !important; float: none !important; display: inline-block; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price .aw { color: #949494 !important; line-height: 30px !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price .ac { letter-spacing: 0 !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .price .line-through { border-top: 1px solid #949494 !important; top: 20px !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section { margin: 0 !important; }
+  .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section div { text-align: left !important; padding: 0 !important; }
+  .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .aw, .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .awYr { font-size: inherit !important; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .red-price-text { margin: auto !important; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .red-price-text span { color: #393a3d !important; font-weight: 600 !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .red-price-text { margin: 0 !important; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .save-percent { color: #949494 !important; margin-top: 10px; text-align: center; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .pricing-section .save-percent { text-align: left; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ctext p { text-align: center !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ctext p { text-align: left !important; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ccta { display: block; margin-right: 0; margin-bottom: 0; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ccta { display: inline-block; } }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content a.ctaprimary, .pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ctaTrialLink { min-width: 180px; text-align: center; display: inline-block; }
+.pelling-bolt-main-design__pricing-cards-padding .cpricing-card .pricing-card-content .ctaTrialLink { color: #393a3d !important; font-size: 16px !important; padding: 0 24px !important; border: 2px solid #393a3d; display: inline-block; align-items: center; border-radius: 25px; position: relative; overflow: hidden; line-height: 36px; vertical-align: bottom; width: auto; min-height: 36px !important; font-weight: 600 !important; margin-top: 20px; }
+.pelling-bolt-main-design__pricing-cards-padding .ctext h4 { margin-top: 27px; margin-bottom: -10px; }
+.pelling-bolt-main-design__pricing-cards-padding .ctext h4 span { font-size: 25px; color: #797979; }
+@media (min-width: 768px) { .pelling-bolt-main-design__pricing-cards-padding ul.features { margin-top: 20px !important; border: 0; margin-top: 0 !important; } }
+.pelling-bolt-main-design__pricing-cards-padding ul.features li { position: relative; margin-left: 20px; border: 0 !important; }
+.pelling-bolt-main-design__pricing-cards-padding ul.features li:before { content: ''; position: absolute; left: -20px; width: 16px; height: 16px; background: url("ic_check2.png"); background-size: contain; background-repeat: no-repeat; }
+.pelling-bolt-main-design__hero-txt-img { margin-bottom: 40px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img { margin-bottom: 70px; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img .ctext { padding-left: 0 !important; padding-right: 40px !important; } }
+.pelling-bolt-main-design__hero-txt-img .ctext h3 { font-size: 14px; font-weight: 400; padding-bottom: 0; }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img .ctext h1 { font-size: 36px !important; line-height: 40px !important; } }
+.pelling-bolt-main-design__hero-txt-img .ctext h3 { margin-bottom: 20px; }
+.pelling-bolt-main-design__hero-txt-img .ctext h1, .pelling-bolt-main-design__hero-txt-img .ctext p { margin-bottom: 30px; }
+.pelling-bolt-main-design__hero-txt-img .ccta { margin-top: 20px; }
+@media (min-width: 576px) { .pelling-bolt-main-design__hero-txt-img .ccta { margin-top: 0; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img img { width: 140%; height: auto; } }
+.pelling-bolt-main-design__hero-txt-img.newH1 { margin-bottom: 40px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 { margin-bottom: 70px; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 .ctext { padding-left: 0 !important; padding-right: 40px !important; } }
+.pelling-bolt-main-design__hero-txt-img.newH1 .ctext h1 { font-size: 12px !important; font-weight: 500 !important; padding-bottom: 0; text-transform: uppercase; line-height: 18px !important; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .ctext p.hero-H1 { font-size: 28px !important; line-height: 1.14 !important; font-weight: 700; }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 .ctext p.hero-H1 { font-size: 36px !important; line-height: 40px !important; } }
+.pelling-bolt-main-design__hero-txt-img.newH1 .ctext h1 { margin-bottom: 20px; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .ctext p { margin-bottom: 30px; }
+.pelling-bolt-main-design__hero-txt-img.newH1 .ccta { margin-top: 20px; }
+@media (min-width: 576px) { .pelling-bolt-main-design__hero-txt-img.newH1 .ccta { margin-top: 0; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__hero-txt-img.newH1 img { width: 140%; height: auto; } }
+.pelling-bolt-main-design__txt-img, .pelling-bolt-main-design__img-txt { padding-top: 0; }
+.pelling-bolt-main-design__txt-img .cimage img, .pelling-bolt-main-design__img-txt .cimage img { width: auto; max-width: 100%; }
+@media (min-width: 768px) { .pelling-bolt-main-design__txt-img .row, .pelling-bolt-main-design__img-txt .row { display: table !important; }
+  .pelling-bolt-main-design__txt-img .row div[class*=' col-md-'], .pelling-bolt-main-design__img-txt .row div[class*=' col-md-'] { float: none; display: table-cell; vertical-align: top; }
+  .pelling-bolt-main-design__txt-img .row .col-md-8, .pelling-bolt-main-design__img-txt .row .col-md-8 { z-index: 0; background-color: #f4f5f8; position: relative; }
+  .pelling-bolt-main-design__txt-img .row .col-md-8 .ccontainer, .pelling-bolt-main-design__img-txt .row .col-md-8 .ccontainer { background-color: transparent !important; position: absolute; width: 70%; top: 50%; left: 0; -moz-transform: translateY(-50%); -ms-transform: translateY(-50%); -webkit-transform: translateY(-50%); transform: translateY(-50%); }
+  .pelling-bolt-main-design__txt-img .row .col-md-8 .ctext h3, .pelling-bolt-main-design__img-txt .row .col-md-8 .ctext h3 { font-size: 28px; line-height: 32px; }
+  .pelling-bolt-main-design__txt-img .row .col-md-4, .pelling-bolt-main-design__img-txt .row .col-md-4 { z-index: 1; }
+  .pelling-bolt-main-design__txt-img .row .col-md-4 .cimage img, .pelling-bolt-main-design__img-txt .row .col-md-4 .cimage img { width: 140%; max-width: unset; margin-left: -40%; margin-top: 60px; margin-bottom: 60px; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__img-txt .row .col-md-8 .ccontainer { left: 20%; }
+  .pelling-bolt-main-design__img-txt .row .col-md-4 .cimage img { margin-left: 0; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__testimonial-1 { padding-top: 80px; } }
+.pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini { background: #fff; padding: 20px; }
+.pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini .img-left { max-height: 36px; width: auto; margin: auto; display: block; }
+.pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini .ctestimonial_review { color: #393a3d !important; }
+@media (min-width: 768px) { .pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini { margin-top: 160px; margin-left: -70px; }
+  .pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini .ctestimonial_mini_image_section.col-md-4 { width: 15%; }
+  .pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini .ctestimonial_review { font-style: normal; font-weight: 700; margin-bottom: 20px; margin-top: 20px; }
+  .pelling-bolt-main-design__testimonial-1 .ctestimonial.testimonial_mini .ctestimonial_reviews_section.col-md-8 { width: 80%; } }
+@media (min-width: 768px) { .pelling-bolt-main-design__testimonial-1 .ctestimonial .ctestimonial_rating .rating-5 { width: 144px; background-image: url(../pricing/yellow-stars.png); background-repeat: no-repeat; background-size: contain; height: 36px; background-position: center; }
+  .pelling-bolt-main-design__testimonial-1 .ctestimonial .ctestimonial_rating { background: none; } }
+.pelling-bolt-main-design__testimonial-2 h2 { margin-bottom: 40px; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini { background: #fff; padding: 20px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini { margin-top: 160px; margin-left: -70px; } }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini .img-left { max-height: 36px; width: auto; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini .ctestimonial_mini_image_section.col-md-4 { width: 15%; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini .ctestimonial_review { color: #393a3d !important; font-style: normal; font-weight: 600; margin-bottom: 20px; margin-top: 20px; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial.testimonial_mini .ctestimonial_reviews_section.col-md-8 { width: 80%; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial .ctestimonial_rating .rating-5 { width: 144px; background-image: url(../pricing/yellow-stars.png); background-repeat: no-repeat; background-size: contain; height: 36px; background-position: center; }
+.pelling-bolt-main-design__testimonial-2 .ctestimonial .ctestimonial_rating { background: none; }
+.pelling-bolt-main-design__tabs { margin-top: 50px; margin-bottom: 50px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion { margin-top: 40px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group { position: relative; margin-top: 0; border-bottom: 1px solid #f4f5f8; border-left: 2px solid #f4f5f8; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group { border-bottom: 0; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .activeLine { position: absolute; height: 20%; width: 4px; left: -2px; top: 0; border-radius: 50px; background-color: #2CA01C; transition: 0.4s ease-in-out; display: none; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .activeLine { display: block; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel { border-top: 1px solid #f4f5f8; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel:nth-child(1).active ~ .activeLine { top: 0; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel:nth-child(2).active ~ .activeLine { top: 20%; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel:nth-child(3).active ~ .activeLine { top: 40%; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel:nth-child(4).active ~ .activeLine { top: 60%; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel:nth-child(5).active ~ .activeLine { top: 80%; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel { border: 0; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel.active .panel-heading .p2 { font-weight: 600; position: relative; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel.active .panel-heading .p2:before { content: ''; position: absolute; bottom: -6px; left: 0; width: 55px; height: 3px; background: #2CA01C; border-radius: 7px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .cfeatures-panel.active .panel-heading .p2:before { display: none; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel { margin: 0; width: 100%; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading { position: relative; padding: 10px 0; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading { padding: 20px 0; border: 0; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading span { color: #393a3d; font-size: 20px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading span:hover { text-decoration: none; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading span { font-size: 14px; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading.accordion-toggle:before { content: ''; display: inline-block; width: 10px; height: 10px; border-top: 2px solid transparent; border-right: 2px solid transparent; border-bottom: 2px solid #808080; border-left: 2px solid #808080; -moz-transform: rotate(-45deg); -ms-transform: rotate(-45deg); -webkit-transform: rotate(-45deg); transform: rotate(-45deg); position: absolute; right: 17px; top: 50%; margin-top: -3px; -moz-transition: all 400ms ease; -webkit-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-heading.accordion-toggle:before { display: none; } }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body .cimage { margin-top: 10px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body .cimage img { margin-top: 20px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body .cimage a.ctatertiary { margin-top: 20px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body .cimage h4 { font-size: 14px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body .cimage h3 { font-size: 18px; line-height: 22px; margin-bottom: 20px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .cfeatures-accordion .panel-group .panel .panel-body { display: none !important; } }
+.pelling-bolt-main-design__tabs .gray-bg { padding-top: 50px; padding-bottom: 50px; background-color: #edeef2; padding: 70px 0 70px 80px; display: none; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs .gray-bg { display: block; } }
+.pelling-bolt-main-design__tabs .gray-bg:before { content: ''; background-color: #edeef2; position: absolute; left: 100%; top: 0; width: 100%; height: 100%; }
+.pelling-bolt-main-design__tabs .gray-bg h4 { font-size: 14px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs .gray-bg h3 { font-size: 18px; line-height: 22px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs .gray-bg p { margin-bottom: 10px; }
+.pelling-bolt-main-design__tabs .gray-bg a.ctatertiary { margin-top: 20px; }
+.pelling-bolt-main-design__tabs .gray-bg .col-md-8 { min-height: 350px; }
+@media (min-width: 1200px) { .pelling-bolt-main-design__tabs .gray-bg .col-md-8 { min-height: 436px; } }
+.pelling-bolt-main-design__tabs .gray-bg .col-md-8 img { position: absolute; left: 20%; z-index: 999; top: 0; width: auto; max-height: 336px; }
+@media (min-width: 1200px) { .pelling-bolt-main-design__tabs .gray-bg .col-md-8 img { max-height: 436px; } }
+.pelling-bolt-main-design__tabs .gray-bg .panel-content.cactive .ccontainer { top: 10px; opacity: 0; -moz-animation: fadeInUp 0.5s forwards; -webkit-animation: fadeInUp 0.5s forwards; animation: fadeInUp 0.5s forwards; }
+@-moz-keyframes fadeInUp { from { opacity: 0; -moz-transform: translateY(10px); transform: translateY(10px); }
+  to { opacity: 1; -moz-transform: translateY(0); transform: translateY(0); } }
+@-webkit-keyframes fadeInUp { from { opacity: 0; -webkit-transform: translateY(10px); transform: translateY(10px); }
+  to { opacity: 1; -webkit-transform: translateY(0); transform: translateY(0); } }
+@keyframes fadeInUp { from { opacity: 0; -moz-transform: translateY(10px); -ms-transform: translateY(10px); -webkit-transform: translateY(10px); transform: translateY(10px); }
+  to { opacity: 1; -moz-transform: translateY(0); -ms-transform: translateY(0); -webkit-transform: translateY(0); transform: translateY(0); } }
+.pelling-bolt-main-design__tabs-1 .grid-image-text.g_vertical_align_image div.row .row { align-items: initial !important; }
+.pelling-bolt-main-design__tabs-1 .tab-menus { position: relative; border-bottom: 3px solid #f4f5f8; }
+.pelling-bolt-main-design__tabs-1 .tab-menus .activeLine { position: absolute; height: 4px; width: 33.33%; left: 0; bottom: -3px; border-radius: 50px; background-color: #2CA01C; transition: 0.4s ease-in-out; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs { display: flex; align-items: center; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li { display: inline-block; width: 33.33%; text-align: center; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li a { color: #393a3d; padding: 20px 10px; display: inline-block; width: 100%; text-align: center; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li a:hover { text-decoration: none; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li br { display: none; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li br { display: block; } }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li.active a { font-weight: 600; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li:nth-child(1).active ~ .activeLine { left: 0; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li:nth-child(2).active ~ .activeLine { left: 33.33%; }
+.pelling-bolt-main-design__tabs-1 .tab-menus ul.nav-tabs li:nth-child(3).active ~ .activeLine { left: 66.66%; }
+.pelling-bolt-main-design__tabs-1 .tab-content { background-color: #f4f6f7; padding: 20px; margin-top: 20px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs-1 .tab-content { padding: 60px 50px; } }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane { display: none; opacity: 0; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane.active { display: block; -moz-animation: fadeIn 0.5s forwards; -webkit-animation: fadeIn 0.5s forwards; animation: fadeIn 0.5s forwards; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane a.ctatertiary { margin-top: 20px; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane h4 { font-size: 14px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane h3 { font-size: 18px; line-height: 22px; margin-bottom: 20px; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane p { margin-bottom: 10px; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane b { font-weight: 600 !important; }
+.pelling-bolt-main-design__tabs-1 .tab-content .tab-pane .img img { display: block; margin-top: 20px; }
+@media (min-width: 768px) { .pelling-bolt-main-design__tabs-1 .tab-content .tab-pane .img img { max-width: 90%; margin-left: auto; margin-top: 0; } }
+@-moz-keyframes fadeIn { 0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; } }
+@-webkit-keyframes fadeIn { 0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; } }
+@keyframes fadeIn { 0% { opacity: 0; }
+  25% { opacity: 0; }
+  100% { opacity: 1; } }
+.pelling-bolt-main-design__trusted-bar { background-color: #f4f5f8; text-align: center; font-weight: 600; }
+@media (min-width: 768px) { .pelling-bolt-main-design__trusted-bar { padding-top: 20px; padding-bottom: 20px; } }
+.pelling-bolt-main-design__trusted-bar li { display: block; font-size: 14px; font-weight: 600; text-align: center; margin-bottom: 10px; }
+@media (min-width: 992px) { .pelling-bolt-main-design__trusted-bar li { display: inline-block; margin-left: 14px; text-align: left; margin-bottom: 0; } }
+.pelling-bolt-main-design__trusted-bar li img { max-height: 20px; width: auto; }
+.pelling-bolt-main-design__trusted-bar li img.verisign { max-height: 30px; }
+.pelling-bolt-main-design__trusted-bar li:first-child { margin-left: 0; }
